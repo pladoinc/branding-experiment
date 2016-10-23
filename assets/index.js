@@ -124,10 +124,17 @@
         }, 300)
     }
 
-    /*current.innerText = words.next() + '.'
-    next.innerText = words.peek() + '.'
-    updateCSS()
-    setTimeout(animate, 2000)*/
+    document.documentElement.addEventListener('click', function (evt) {
+        let text = document.getElementsByClassName('content')[0]
+        let clicked = evt.x >= text.offsetLeft && evt.x <= (text.offsetLeft + text.offsetWidth) &&
+                      evt.y >= text.offsetTop && evt.y <= (text.offsetTop + text.offsetHeight)
+
+        if (clicked && evt.target === text) {
+            text.setAttribute('contenteditable', 'true')
+        } else if (text.getAttribute('contenteditable')) {
+            text.removeAttribute('contenteditable')
+        }
+    })
 
     animate()
 }();
