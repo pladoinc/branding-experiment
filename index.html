@@ -12,7 +12,15 @@
     </style>
 </head>
 <body>
-    <div class="text">PLADO is about <div class="blank"><span id="current">you.</span><span class="future"></span></div></div>
+    <div class="sidebar">
+        <div class="input-group">
+            <input id="txtInput" type="text" placeholder="Enter a new phrase">
+            <button id="btnAdd">+</button>
+        </div>
+        <ul id="list"></ul>
+    </div>
+
+    <div contenteditable="true" class="text">PLADO is about <div contenteditable="false" class="blank"><span id="current">you.</span><span class="future"></span></div></div>
     <div class="footer">
         <div class="wrapper">
             <p>Copyright &copy; 2016 PLADO Inc. All rights reserved.</p>
