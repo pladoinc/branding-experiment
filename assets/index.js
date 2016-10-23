@@ -86,9 +86,10 @@
     document.getElementById('btnAdd').addEventListener('click', function (evt) {
         evt.preventDefault()
 
-        let text = txtInput.value
+        let text = txtInput.value.trim()
         txtInput.value = ''
-        words.add(text)
+
+        if (text) words.add(text)
     })
 
     ;[
