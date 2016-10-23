@@ -1,0 +1,89 @@
+/**
+ * assets/index.css - branding-experiment
+ * Copyright (C) 2016 PLADO Inc. All rights reserved.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+    background-image: url(splash.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.text .blank,
+.text span {
+    display: inline;
+}
+
+.text {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    color: #fff;
+
+    -webkit-transition: .7s padding ease;
+       -moz-transition: .7s padding ease;
+        -ms-transition: .7s padding ease;
+         -o-transition: .7s padding ease;
+            transition: .7s padding ease;
+}
+
+.text span {
+    opacity: 1;
+    padding-left: 10px;
+    font-weight: 600;
+
+    -webkit-transition: .7s opacity ease, .7s top ease;
+       -moz-transition: .7s opacity ease, .7s top ease;
+        -ms-transition: .7s opacity ease, .7s top ease;
+         -o-transition: .7s opacity ease, .7s top ease;
+            transition: .7s opacity ease, .7s top ease;
+}
+
+.text .past,
+.text .future { opacity: 0; }
+
+.footer {
+    background: #f44336;
+    padding: 2em;
+    display: table;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer,
+.footer p {
+    width: 100%;
+}
+
+.footer p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    color: rgba(255,255,255,.7);
+    text-transform: uppercase;
+}
