@@ -99,8 +99,7 @@
             'uncovering your potential',
             'discovering your passion',
             'building your future',
-            'broadening your horizons',
-            'you'
+            'broadening your horizons'
     ].forEach(words.add)
 
     let animate = function() {

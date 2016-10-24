@@ -22,8 +22,7 @@
             'uncovering your potential',
             'discovering your passion',
             'building your future',
-            'broadening your horizons',
-            'you'
+            'broadening your horizons'
         ],
 
         nextIndex: function(i) {
