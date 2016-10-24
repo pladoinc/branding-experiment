@@ -19,6 +19,10 @@
             'passionate people',
             'open education',
             'self-paced learning',
+            'uncovering your potential',
+            'discovering your passion',
+            'building your future',
+            'broadening your horizons',
             'you'
         ],
 
@@ -59,8 +63,12 @@
         }
 
         .text span {
-            position:absolute;
+            position: absolute;
+            width: ${paddingRight}px;
+            text-align: center;
             top: ${blank.offsetTop}px;
+
+            border-bottom:solid 3px #fff;
         }
 
         .text span.past {

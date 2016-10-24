@@ -96,6 +96,10 @@
             'passionate people',
             'open education',
             'self-paced learning',
+            'uncovering your potential',
+            'discovering your passion',
+            'building your future',
+            'broadening your horizons',
             'you'
     ].forEach(words.add)
 
