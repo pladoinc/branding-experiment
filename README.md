@@ -8,8 +8,8 @@ We tried two versions of this, one that is dynamically positioned and one that i
 statically positioned. Both looked nicer but the Board elected to use the static positioning
 in production.
 
-Original: [Demo](https://pladoinc.github.io/branding-experiment/index.html)
-Static: [Demo](https://pladoinc.github.io/branding-experiment/static.html)
+ - Original: [Demo](https://pladoinc.github.io/branding-experiment/index.html)
+ - Static: [Demo](https://pladoinc.github.io/branding-experiment/static.html)
 
 ## Final Product
 
