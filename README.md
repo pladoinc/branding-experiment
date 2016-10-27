@@ -4,19 +4,18 @@ This was an experiment to improve the branding provided by the slogan on the hom
 
 ## Versions
 
-We tried two versions of this, one that is dynamically positioned and one that is
-statically positioned. Both looked nicer but the Board elected to use the static positioning
-in production.
+We tried a few different experiments to make this work:
 
  - Original: [Demo](https://pladoinc.github.io/branding-experiment/index.html)
  - Static: [Demo](https://pladoinc.github.io/branding-experiment/static.html)
+ - Typed: [Demo](https://pladoinc.github.io/branding-experiment/typed.html)
 
 ## Final Product
 
 As the website is hosted on Squarespace, the code had to be ported over to something that
 could be stuck inside of a code block on the home page.
 
-This script can be found in [public/index.js](public/index.js).
+This script can be found in [public/typed.js](public/typed.js).
 
 ## License
 
