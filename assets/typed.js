@@ -35,7 +35,6 @@
                     return w !== word
                 })
 
-                next.innerText = words.peek() + '.'
                 list.removeChild(li)
             })
 
