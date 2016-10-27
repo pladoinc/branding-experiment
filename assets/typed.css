@@ -1,0 +1,166 @@
+/**
+ * assets/typed.css - branding-experiment
+ * Copyright (C) 2016 PLADO Inc. All rights reserved.
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+    background-image: url(splash.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.text {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2em;
+    text-align: center;
+
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    color: #fff;
+}
+
+@-webkit-keyframes blink {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.cursor {
+    vertical-align: middle;
+    font-size: 1.2em;
+
+    -webkit-animation: blink 1.2s infinite;
+    animation: blink 1.2s infinite;
+}
+
+.sidebar {
+    background: rgba(255,255,255,.15);
+    position: absolute;
+
+    padding: 10px;
+
+    top: 0;
+    left: 0;
+
+    height: 150px;
+    width: 20%;
+
+    min-width: 100px;
+    max-width: 300px;
+}
+
+.sidebar .input-group {
+    width: 100%;
+}
+
+.sidebar .input-group input,
+.sidebar .input-group input:hover,
+.sidebar .input-group input:focus,
+.sidebar .input-group input:active,
+.sidebar .input-group button,
+.sidebar .input-group button:hover,
+.sidebar .input-group button:focus,
+.sidebar .input-group button:active {
+    display: inline-block;
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 1em;
+}
+
+.sidebar .input-group input {
+    width: 90%;
+}
+
+.sidebar .input-group button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#list {
+    border-top: solid 1px rgba(255,255,255,.5);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#list > li {
+    padding: 5px;
+}
+
+#list > li:not(:last-child) {
+    border-bottom: solid 1px rgba(255,255,255,.2);
+}
+
+#list > li,
+#list > li .remove {
+    color: #fff;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 100;
+    font-size: .8em;
+}
+
+#list > li .remove {
+    float: right;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+#list > li .remove:hover {
+    background: rgba(0,0,0,.2);
+}
+
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer {
+    background: #f44336;
+    padding: 2em;
+    display: table;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.footer,
+.footer p {
+    width: 100%;
+}
+
+.footer p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    color: rgba(255,255,255,.7);
+    text-transform: uppercase;
+}
