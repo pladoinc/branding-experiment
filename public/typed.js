@@ -20,12 +20,14 @@ CSS injected alongside:
 }
 </style>
  */
-
 ~ function () {
   'use strict';
 
   var go = function () {
-    if (document.body.getAttribute('data-gr-c-s-loaded')) {
+    var bc = document.body.classList
+    if (bc.contains('has-banner-image') && bc.contains('general-page')) {
+      if (bc.contains('force-mobile-nav')) return;
+
       // actual implementation
       var p = document.getElementsByClassName('banner-thumbnail-wrapper')[0].getElementsByTagName('p')[0]
 
